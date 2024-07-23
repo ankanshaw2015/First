@@ -1,10 +1,10 @@
 package com.git;
-
 public class Demo {
     public static void main(String[] args) {
         int wagePerHour = 20;
         int fullDay = 8;
-        int halfDay = 4;
+
+ 
         System.out.println("===== WELCOME TO EMPLOYEE WAGE COMPUTATION ======");
         System.out.println("");
 
@@ -15,6 +15,7 @@ public class Demo {
             System.out.println("");
             System.out.print("The daily wage of Employee is : " + ( wagePerHour * fullDay ));
             System.out.println("");
+ 
         }
 
         else if ( empCheck == 1 )
@@ -24,6 +25,7 @@ public class Demo {
             System.out.println("");
             System.out.print("The daily wage of Employee is : " + ( wagePerHour * halfDay ));
             System.out.println("");
+
         }
         else
         {
